@@ -1,0 +1,21 @@
+name: Daily update
+on:
+  schedule:
+    # At 05:00 on tuesdays, wednesdays, thursdays, fridays and saturdays.
+    - cron: "0 5 * * TUE-SAT"
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Fetch data
+        run: |
+          ls
+          bash fetch.sh
+      - name: Commit and push if changed
+        run: |
+          git config --global user.email "tiet@ehkoo.com"
+          git config --global user.name "tiet"
+          git add -A
+          git commit -m "Updated stock data" || exit 0
+          git push
