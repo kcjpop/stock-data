@@ -470,3 +470,10 @@ Date,Open,High,Low,Close,Adj Close,Volume
 2022-01-26,83.570000,84.620003,81.000000,81.519997,81.519997,3633100
 2022-01-27,null,null,null,null,null,null
 2022-01-28,82.209999,82.820000,80.839996,82.769997,82.769997,4367200
+    "finance": {
+        "error": {
+            "code": "Unauthorized",
+            "description": "Invalid cookie"
+        }
+    }
+}

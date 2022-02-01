@@ -1211,3 +1211,10 @@ Date,Open,High,Low,Close,Adj Close,Volume
 2022-01-26,184.009995,190.979996,176.220001,178.039993,178.039993,3094000
 2022-01-27,null,null,null,null,null,null
 2022-01-28,175.990005,184.625000,171.860001,184.240005,184.240005,1942000
+    "finance": {
+        "error": {
+            "code": "Unauthorized",
+            "description": "Invalid cookie"
+        }
+    }
+}
