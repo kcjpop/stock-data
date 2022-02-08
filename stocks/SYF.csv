@@ -41,3 +41,10 @@
         }
     }
 }
+    "finance": {
+        "error": {
+            "code": "Unauthorized",
+            "description": "Invalid cookie"
+        }
+    }
+}
