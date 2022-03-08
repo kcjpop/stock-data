@@ -4735,3 +4735,10 @@ Date,Open,High,Low,Close,Adj Close,Volume
     }
 }
 2022-03-04,36.950001,37.634998,36.680000,37.560001,37.560001,2800172
+    "finance": {
+        "error": {
+            "code": "Unauthorized",
+            "description": "Invalid cookie"
+        }
+    }
+}

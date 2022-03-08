@@ -5719,3 +5719,10 @@ Date,Open,High,Low,Close,Adj Close,Volume
     }
 }
 2022-03-04,80.010002,81.250000,79.010002,80.349998,80.349998,1185053
+    "finance": {
+        "error": {
+            "code": "Unauthorized",
+            "description": "Invalid cookie"
+        }
+    }
+}
