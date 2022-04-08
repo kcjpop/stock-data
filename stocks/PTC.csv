@@ -5880,3 +5880,10 @@ Date,Open,High,Low,Close,Adj Close,Volume
     }
 }
 2022-04-06,103.180000,104.709999,100.730003,100.980003,100.980003,680000
+    "finance": {
+        "error": {
+            "code": "Unauthorized",
+            "description": "Invalid cookie"
+        }
+    }
+}
