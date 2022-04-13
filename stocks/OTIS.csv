@@ -809,3 +809,10 @@ Date,Open,High,Low,Close,Adj Close,Volume
 }
 2022-04-08,77.260002,78.199997,77.110001,77.239998,77.239998,2107000
 2022-04-11,77.000000,77.260002,76.160004,76.370003,76.370003,1750400
+    "finance": {
+        "error": {
+            "code": "Unauthorized",
+            "description": "Invalid cookie"
+        }
+    }
+}

@@ -2523,3 +2523,10 @@ Date,Open,High,Low,Close,Adj Close,Volume
 }
 2022-04-08,20.200001,20.420000,19.639999,19.940001,19.940001,15310700
 2022-04-11,19.650000,20.590000,19.459999,20.260000,20.260000,13833500
+    "finance": {
+        "error": {
+            "code": "Unauthorized",
+            "description": "Invalid cookie"
+        }
+    }
+}
