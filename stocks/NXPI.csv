@@ -3266,3 +3266,10 @@ Date,Open,High,Low,Close,Adj Close,Volume
     }
 }
 2022-04-20,180.669998,185.279999,178.369995,178.789993,178.789993,2685000
+    "finance": {
+        "error": {
+            "code": "Unauthorized",
+            "description": "Invalid cookie"
+        }
+    }
+}

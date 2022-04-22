@@ -388,3 +388,10 @@
     }
 }
 2022-04-20,46.340000,47.110001,45.029999,46.720001,46.720001,63114200
+    "finance": {
+        "error": {
+            "code": "Unauthorized",
+            "description": "Invalid cookie"
+        }
+    }
+}
