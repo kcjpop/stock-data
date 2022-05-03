@@ -5974,3 +5974,10 @@ Date,Open,High,Low,Close,Adj Close,Volume
     }
 }
 2022-04-29,170.259995,170.259995,159.649994,160.289993,160.289993,9997100
+    "finance": {
+        "error": {
+            "code": "Unauthorized",
+            "description": "Invalid cookie"
+        }
+    }
+}

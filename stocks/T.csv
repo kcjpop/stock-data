@@ -425,3 +425,10 @@
     }
 }
 2022-04-29,19.360001,19.370001,18.809999,18.860001,18.860001,70146500
+    "finance": {
+        "error": {
+            "code": "Unauthorized",
+            "description": "Invalid cookie"
+        }
+    }
+}
