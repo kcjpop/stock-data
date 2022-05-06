@@ -601,3 +601,10 @@ Date,Open,High,Low,Close,Adj Close,Volume
     }
 }
 2022-05-04,32.520000,33.290001,31.940001,33.189999,33.189999,1409200
+    "finance": {
+        "error": {
+            "code": "Unauthorized",
+            "description": "Invalid cookie"
+        }
+    }
+}

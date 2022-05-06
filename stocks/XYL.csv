@@ -452,3 +452,10 @@
     }
 }
 2022-05-04,85.629997,90.580002,85.000000,90.300003,90.300003,2218500
+    "finance": {
+        "error": {
+            "code": "Unauthorized",
+            "description": "Invalid cookie"
+        }
+    }
+}
