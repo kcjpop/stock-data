@@ -6019,3 +6019,10 @@ Date,Open,High,Low,Close,Adj Close,Volume
     }
 }
 2022-05-24,24.559999,25.110001,24.340000,24.620001,24.620001,9023200
+    "finance": {
+        "error": {
+            "code": "Unauthorized",
+            "description": "Invalid cookie"
+        }
+    }
+}

@@ -3995,3 +3995,10 @@ Date,Open,High,Low,Close,Adj Close,Volume
     }
 }
 2022-05-24,102.779999,106.730003,102.779999,106.620003,106.620003,6116800
+    "finance": {
+        "error": {
+            "code": "Unauthorized",
+            "description": "Invalid cookie"
+        }
+    }
+}
