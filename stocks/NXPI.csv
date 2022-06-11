@@ -3463,3 +3463,10 @@ Date,Open,High,Low,Close,Adj Close,Volume
     }
 }
 2022-06-09,176.529999,194.710007,176.380005,184.220001,184.220001,10136300
+    "finance": {
+        "error": {
+            "code": "Unauthorized",
+            "description": "Invalid cookie"
+        }
+    }
+}
