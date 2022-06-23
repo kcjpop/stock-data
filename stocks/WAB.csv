@@ -640,3 +640,10 @@
     }
 }
 2022-06-21,85.000000,85.750000,83.650002,84.620003,84.620003,812300
+    "finance": {
+        "error": {
+            "code": "Unauthorized",
+            "description": "Invalid cookie"
+        }
+    }
+}

@@ -5724,3 +5724,10 @@ Date,Open,High,Low,Close,Adj Close,Volume
     }
 }
 2022-06-21,65.160004,65.769997,64.080002,65.480003,65.480003,1622400
+    "finance": {
+        "error": {
+            "code": "Unauthorized",
+            "description": "Invalid cookie"
+        }
+    }
+}

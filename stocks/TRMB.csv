@@ -628,3 +628,10 @@
     }
 }
 2022-06-21,58.490002,59.200001,58.419998,58.840000,58.840000,1143100
+    "finance": {
+        "error": {
+            "code": "Unauthorized",
+            "description": "Invalid cookie"
+        }
+    }
+}
