@@ -7,6 +7,6 @@ jobs:
       - uses: wow-actions/auto-comment@v1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          pullRequestClosed: |
+          pullRequestClosedComment: |
             👋 @{{ author }}
             Don't forget to update CHANGELOG eh?
