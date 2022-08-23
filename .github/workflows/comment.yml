@@ -1,16 +1,12 @@
-name: Add checkout commands
-on:
-  pull_request:
-    types:
-      - closed
+name: Auto Comment
+on: [pull_request]
 jobs:
-  comment:
-    name: Add checkout commands
+  run:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
-      - uses: harupy/comment-on-pr@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: wow-actions/auto-comment@v1
         with:
-          filename: comment.md
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          pullRequestClosed: |
+            👋 @{{ author }}
+            Don't forget to update CHANGELOG eh?
