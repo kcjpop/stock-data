@@ -2,4 +2,4 @@
 
 ### Stock data
 
-Of NASDAQ 100 and SP 500 from Jan 1, 2000. Update every 5AM Tue-Sat.
+Of NASDAQ 100 and SP 500 from Jan 1, 2000. Update every 5AM Tue - Sat.
