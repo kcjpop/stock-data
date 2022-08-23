@@ -1,0 +1,16 @@
+name: Add checkout commands
+on:
+  pull_request:
+    types:
+      - closed
+jobs:
+  comment:
+    name: Add checkout commands
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: harupy/comment-on-pr@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          filename: template.md
