@@ -7,6 +7,10 @@ jobs:
       - uses: wow-actions/auto-comment@v1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          pullRequestOpened: |
+            👋 @{{ author }}
+            Thank you for raising your pull request.
+            Please make sure you have followed our contributing guidelines. We will review it as soon as possible
           pullRequestClosedComment: |
             👋 @{{ author }}
             Don't forget to update CHANGELOG eh?
